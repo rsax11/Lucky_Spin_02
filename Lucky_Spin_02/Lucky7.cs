@@ -34,7 +34,7 @@ namespace LuckySpin
 
             //Use the ternary operator ?: to assign a value to the image variable
             //TODO: Use the parameter value "luck" instead of the fixed number 7
-            string image = (a == luck || b == luck || c == luck) ?
+            string image = (a == luck || b == luck || c == luck)?
                     "<img src='http://faculty.cascadia.edu/brianb/images/LuckySevenExercise.jpg'/>" : "";
             //empty string if none of the values match
 
