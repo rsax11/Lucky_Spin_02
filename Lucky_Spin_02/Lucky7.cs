@@ -19,16 +19,17 @@ namespace LuckySpin
     public class Lucky7
     {
         //TODO: Add an integer parameter to the Output method called "luck"
-        public string Output(int luck)
+        public string Output( int luck )
         {
              
 
             //Get three random values
             Random random = new Random();
+            int Luck = random.Next(1, 9);
             int a = random.Next(1, 10);
             int b = random.Next(1, 10);
             int c = random.Next(1, 10);
-           
+             
 
 
 
